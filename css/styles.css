@@ -1,5 +1,6 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid red;
 }
 body{
     background-color: #F0F7EE;
@@ -7,9 +8,15 @@ body{
 .heading{
     text-align: center;
 }
+div{
+    text-align: center;
+}
 ul{
     list-style-type: square;
     font-size: 24px;
+    text-align: center;
+    list-style: inside;
+    display: inline-block;
 }
 a{
     color: #664C43;
